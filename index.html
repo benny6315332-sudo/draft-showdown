@@ -300,7 +300,7 @@ const U=[
 ['C','寄生蟲','Parasite','parasite','控場','ctrl',3,1,'','觸發條件苛刻'],
 ['C','破壞者','Waster','waster','減速干擾','ctrl',1,1,'UP','1.23 緩速提升至 60%／80%'],
 ['C','獨眼王','Kingclops','kingclops','重裝近戰','front',3,1,'UP','1.23 大幅加血，滿血解控'],
-['C','阿斯特拉','Astra','astra','傳說遠程','range',0,0,'UP','微調血量，但攻速慢、極怕特工B','草案通過']
+['C','阿斯特拉','Astra','astra','傳說遠程','range',0,0,'UP','第 3 賽季傳說：召喚雷暴，閃電必打兩次；攻速慢、極怕特工B','草案通過']
 ].map(a=>{const u={t:a[0],zh:a[1],en:a[2],k:a[3],role:a[4],cat:a[5],lv:a[6],ms:a[7],p:a[8],note:a[9],lock:a[10]||''};u.locked=!u.lv;u.ready=u.lv>=5&&u.ms>=5;return u;});
 const ORD=['S','A+','A','B+','B','C'];
 const NEWT={spartheus:'S',merlinor:'S',shellbro:'S',engineer:'S',agentb:'A+',splime:'A+',overmind:'A+',matriarch:'A',goose:'A',whelp:'A',sniper:'A',sixshoot:'A',snail:'B+',mole:'B+',captain:'B+',knight:'B+',waster:'B+',boomling:'B',bloodvine:'B',tnt:'B',cupid:'B',beetank:'B',parasite:'B',kingclops:'B',totem:'C',assassin:'C',astra:'C'};
